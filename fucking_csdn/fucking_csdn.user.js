@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         fucking csdn
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  filter csdn from bing search results
-// @author       You
+// @version      0.2
+// @description  从bing搜索引擎过滤csdn的搜索页面 /filter csdn from bing search results
+// @author       timesbaptism
 // @match        http*://*.bing.com/*
 // @grant        none
 // ==/UserScript==
