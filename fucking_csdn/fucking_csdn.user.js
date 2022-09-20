@@ -1,6 +1,7 @@
 // ==UserScript==
+// @name   fucking csdn
 // @name:en-US   fucking csdn
-// @name:zh-CN   gtmd fucking csdn  
+// @name:zh-CN   gtmd fucking csdn
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description:zh-CN	从bing搜索引擎过滤csdn的搜索页面 /filter csdn from bing search results
@@ -9,7 +10,6 @@
 // @grant        none
 // @license	 GPL-2.0-only
 // @description:en-US	filter csdn from bing search results
-/
 // ==/UserScript==
 
 function fuckingCsdn() {
