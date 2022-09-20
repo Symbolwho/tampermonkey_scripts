@@ -6,6 +6,9 @@
 // @author       timesbaptism
 // @match        http*://*.bing.com/*
 // @grant        none
+// @license	 GPL-2.0-only
+// @description:zh-CN
+// @description:en-US
 // ==/UserScript==
 
 function fuckingCsdn() {
