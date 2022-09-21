@@ -3,7 +3,7 @@
 // @name:en-US   fucking csdn
 // @name:zh-CN   gtmd fucking csdn
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description:zh-CN	从bing搜索引擎过滤csdn的搜索页面 /filter csdn from bing search results
 // @author       timesbaptism
 // @match        http*://*.bing.com/*
@@ -15,7 +15,11 @@
 function fuckingCsdn() {
     let searchItems = document.querySelectorAll(".b_algo");
     searchItems.forEach(function (item) {
-        let bingAttr = item.querySelector(".b_attribution").innerHTML;
+	let attr = item.querySelector(".b_attribution");
+        if(attr==null){
+            return;
+        }
+        let bingAttr = attr.innerHTML;
         if (bingAttr.toLowerCase().indexOf("csdn") >= 0) {
             item.style.display = "none";
         }
